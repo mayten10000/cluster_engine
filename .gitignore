@@ -1,0 +1,74 @@
+# Logs
+*.log
+*.out
+*.stdout
+*.stderr
+
+# Data dumps / intermediate
+*.json
+*.csv
+*.tsv
+*.xlsx
+*.xls
+
+# Binary / ML artifacts
+*.npy
+*.faiss
+*.pkl
+*.pickle
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.webp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Env & secrets
+.env
+.env.*
+*.secret
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local caches
+.cache/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Legacy / data dirs
+new/
+data/
+cache/
+models/
+embeddings/
+dumps/
